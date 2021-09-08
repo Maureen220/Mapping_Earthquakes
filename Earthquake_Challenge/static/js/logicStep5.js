@@ -44,7 +44,6 @@ L.control.layers(baseMaps, overlays).addTo(map);
 // storing url in variable
 var earthquakeData = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
 
-
 // Retrieve the earthquake GeoJSON data.
 d3.json(earthquakeData).then(function(data) {
   console.log(data);
